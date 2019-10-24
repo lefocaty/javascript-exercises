@@ -26,7 +26,7 @@ var someVariable=true;
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is hoisted.
             // ✏️ ADD CODE HERE ✏️
-
+var someVariable=undefined;
             ////////////////////////////////////////////////////////////////////
         });
     });
