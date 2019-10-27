@@ -137,7 +137,9 @@ let someVariable=undefined;
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-        const object ={name:"Cable"};
+        const object = {
+        someProperty :1
+        };
         
 
             ////////////////////////////////////////////////////////////////////
@@ -155,7 +157,7 @@ let someVariable=undefined;
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+object.someProperty = undefined;
             ////////////////////////////////////////////////////////////////////
 
             // object.someProperty is undefined...
@@ -191,7 +193,7 @@ let someVariable=undefined;
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+ 
             ////////////////////////////////////////////////////////////////////
 
             expect(secondArray).to.eql([1, 2, 3]);
