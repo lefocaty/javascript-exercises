@@ -254,7 +254,8 @@ console.log(longArray.length);
             // By observing their casting behavior in the tests below, you can find
             // out the required types.
             // ✏️ ADD CODE HERE ✏️
-
+const firstVariable = 1+2;
+const secondVariable="1";
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof firstVariable).to.equal("number");
@@ -271,7 +272,10 @@ console.log(longArray.length);
             ////////////////////////////////////////////////////////////////////
             // Can you find a string that casts to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-
+const falsyString="";
+if(falsyString){
+    console.log=falsy;
+}
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyString).to.equal("string");
@@ -312,6 +316,10 @@ console.log(longArray.length);
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
+        var falsyString ="null";
+            if(falsyString){
+                console.log="falsyString is not falsy";
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyThing).to.equal("object");
