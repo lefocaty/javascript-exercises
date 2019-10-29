@@ -349,7 +349,8 @@ if(falsyString){
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            object.freeze(undefined);
+         object[propertyName] ="firstProperty";
             ////////////////////////////////////////////////////////////////////
 
             // That's the same property access as above, but now we get back
