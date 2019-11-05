@@ -97,7 +97,11 @@ const answer = getContext();
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-const answerFirstResult = 
+const answerFirstResult = getContext()
+ const answerSecondResult = getContext()
+ const answerThirdResult = getContext()
+ return this;   
+
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function without an explicit context
@@ -135,7 +139,8 @@ const answerFirstResult =
             // and 'answerSecondResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+const answerFirstResult = object.getContext();
+const answerSecondResult = differentObject.getContext();
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function on an object
