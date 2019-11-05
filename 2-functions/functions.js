@@ -171,7 +171,7 @@ const answerSecondResult = differentObject.getContext();
             // You're not allowed to define a new function here.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+ result = getContext(context);
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext.call(context);
@@ -202,7 +202,7 @@ const answerSecondResult = differentObject.getContext();
             // Is there something even stronger than .bind()?
             // Find a way to call getContext(), but with a different context than 'context'.
             // ✏️ EDIT LINE BELOW ✏️
-            const result = getContext();
+            const result = getContext.bind.call(context)
             ////////////////////////////////////////////////////////////////////
 
             if (result === context) {
