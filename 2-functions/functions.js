@@ -40,7 +40,8 @@ const myFunction = function() {}
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+            const otherFunction = ()=>{}
+myFunction = otherFunction
             ////////////////////////////////////////////////////////////////////
 
             if (myFunction !== otherFunction) {
@@ -57,7 +58,7 @@ const myFunction = function() {}
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ EDIT LINE BELOW ✏️
-            myFunction(); // why is myFunction not callable?
+            const otherFuction = function myFunction(){}; // why is myFunction not callable?
             ////////////////////////////////////////////////////////////////////
         });
     });
