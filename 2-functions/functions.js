@@ -73,7 +73,7 @@ myFunction = otherFunction
             // Declare a constant 'answer' with the correct result.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+const answer = getContext();
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext(); // <--- called without explicit context
@@ -97,7 +97,7 @@ myFunction = otherFunction
             // and 'answerThirdResult' with the correct results.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-
+const answerFirstResult = 
             ////////////////////////////////////////////////////////////////////
 
             // First we call the function without an explicit context
